@@ -1,0 +1,16 @@
+{
+  "n_items": 400,
+  "accuracy": 0.6424999833106995,
+  "mean_confidence": 0.7754576206207275,
+  "ece": 0.14309611298143865,
+  "overconfidence": 0.13295763731002808,
+  "subjects": [
+    "high_school_us_history",
+    "high_school_biology",
+    "elementary_mathematics",
+    "computer_security",
+    "professional_law"
+  ],
+  "n_per_subject_requested": 80,
+  "elapsed_s": 1857.7081291675568
+}

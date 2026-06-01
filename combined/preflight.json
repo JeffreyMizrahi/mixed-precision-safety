@@ -1,0 +1,22 @@
+{
+  "cuda_ok": true,
+  "vram_total_gb": 23.536865234375,
+  "vram_free_gb": 21.87127685546875,
+  "disk_free_gb": 505.6686363220215,
+  "mmlu_subjects_ok": [
+    "high_school_us_history",
+    "high_school_biology",
+    "elementary_mathematics",
+    "computer_security",
+    "professional_law"
+  ],
+  "mmlu_subjects_failed": [],
+  "models_ok": [
+    "llama-3.1-8b",
+    "llama-3.2-3b",
+    "gemma-4-4b"
+  ],
+  "models_failed": {},
+  "smoke_test_passed": {},
+  "fatal_issues": []
+}

@@ -1,0 +1,22 @@
+results_root: "src/results"
+
+device: "cuda"
+dtype: "float16"
+
+precisions: [4, 3, 2]
+
+protect_top_pct: 0.10
+
+calibration_n_per_subject: 80
+refusal_max_new_tokens: 100
+needle_context_lengths: [1024, 2048, 4096]
+needle_depths: [0.1, 0.25, 0.5, 0.75, 0.9]
+needle_n_per_cell: 2
+
+min_disk_gb: 5.0
+
+models:
+  - name: "llama-3.1-8b"
+  - name: "llama-3.2-3b"
+  - name: "gemma-4-4b"
+  - name: "qwen3-8b"

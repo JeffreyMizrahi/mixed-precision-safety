@@ -1,0 +1,109 @@
+{
+  "overall_success_rate": 1.0,
+  "n_trials": 30,
+  "by_cell": [
+    {
+      "ctx_len": 1024,
+      "depth": 0.1,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 1024,
+      "depth": 0.25,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 1024,
+      "depth": 0.5,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 1024,
+      "depth": 0.75,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 1024,
+      "depth": 0.9,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 2048,
+      "depth": 0.1,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 2048,
+      "depth": 0.25,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 2048,
+      "depth": 0.5,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 2048,
+      "depth": 0.75,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 2048,
+      "depth": 0.9,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 4096,
+      "depth": 0.1,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 4096,
+      "depth": 0.25,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 4096,
+      "depth": 0.5,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 4096,
+      "depth": 0.75,
+      "n_trials": 2,
+      "success_rate": 1.0
+    },
+    {
+      "ctx_len": 4096,
+      "depth": 0.9,
+      "n_trials": 2,
+      "success_rate": 1.0
+    }
+  ],
+  "context_lengths": [
+    1024,
+    2048,
+    4096
+  ],
+  "depths": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "elapsed_s": 38.64340400695801
+}

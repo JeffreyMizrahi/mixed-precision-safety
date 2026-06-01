@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model caches
+.cache/
+huggingface/
+
+# Raw artifacts (keep CSVs, ignore tensors)
+results/raw/
+results/*.npy
+results/*.pt
+results/*.pkl
+
+# IDE / agent state
+.vscode/
+.idea/
+.claude/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+logs/
+wandb/
+.hf_token
